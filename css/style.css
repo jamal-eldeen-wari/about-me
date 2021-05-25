@@ -1,0 +1,35 @@
+ol{
+    list-style-type: decimal;
+    padding: 20px;
+    
+}
+
+ul{
+    list-style-type: square;
+    display: block;
+    padding: 20px;
+}
+li{
+    margin: 5px;
+    
+}
+h1{
+    padding: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color: aqua;
+}
+nav ul li{
+    text-decoration: none;
+}
+#intro{
+    font-weight: bold;
+    margin : 5px;
+}
+
+#top{
+    font-weight: bold;
+}
