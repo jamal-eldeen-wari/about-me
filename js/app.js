@@ -48,23 +48,30 @@ q2();
 
 
 // Question 3
-let questiionNum3 = prompt('Do I Like Playing Video Games ?? The Answer For This Question Must Yes or NO (y or n)');
+function q3(){
+  let questiionNum3 = prompt('Do I Like Playing Video Games ?? The Answer For This Question Must Yes or NO (y or n)');
 
-if (questiionNum3.toLowerCase() === 'yes' || questiionNum3.toLowerCase() === 'y') {
-  //console.log("Nice i like video games");
-  alert('Nice i like video games especially first person shooter games');
-  counter++;
-}else if (questiionNum3.toLowerCase() === 'no' || questiionNum3.toLowerCase() === 'n') {
-  //console.log("Sorry the Answer is incorrect ");
-  alert('Sorry the Answer is incorrect because i like video games');
-
-}else{
-  // console.log("Sorry your answer should be either yes or no or (y or n)");
-  alert('Sorry your answer should be either yes or no or (y or n)');
+  if (questiionNum3.toLowerCase() === 'yes' || questiionNum3.toLowerCase() === 'y') {
+    //console.log("Nice i like video games");
+    alert('Nice i like video games especially first person shooter games');
+    counter++;
+  }else if (questiionNum3.toLowerCase() === 'no' || questiionNum3.toLowerCase() === 'n') {
+    //console.log("Sorry the Answer is incorrect ");
+    alert('Sorry the Answer is incorrect because i like video games');
+  
+  }else{
+    // console.log("Sorry your answer should be either yes or no or (y or n)");
+    alert('Sorry your answer should be either yes or no or (y or n)');
+  }
+  
 }
 
+q3();
+
 // Question 4
-let questiionNum4 = prompt('Do I Like Eating mujadara ?? The Answer For This Question Must Yes or NO (y or n)');
+
+function q4(){
+  let questiionNum4 = prompt('Do I Like Eating mujadara ?? The Answer For This Question Must Yes or NO (y or n)');
 
 if (questiionNum4.toLowerCase() === 'yes' || questiionNum4.toLowerCase() === 'y') {
   //console.log("Sorry i dont like Mujadara i hate it a lot");
@@ -79,79 +86,95 @@ if (questiionNum4.toLowerCase() === 'yes' || questiionNum4.toLowerCase() === 'y'
   alert('Sorry your answer should be either yes or no or (y or n)');
 }
 
+}
+
+q4();
 // Question 5
-let questiionNum5 = prompt('Do I Like Watching News ?? The Answer For This Question Must Yes or NO (y or n)');
 
-if (questiionNum5.toLowerCase() === 'yes' || questiionNum5.toLowerCase() === 'y') {
-  //console.log("Sorry i dont like watching news at all it is soo boring");
-  alert('Sorry i dont like watching news at all it is soo boring');
+function q5(){
+  let questiionNum5 = prompt('Do I Like Watching News ?? The Answer For This Question Must Yes or NO (y or n)');
 
-}else if (questiionNum5.toLowerCase() === 'no' || questiionNum5.toLowerCase() === 'n') {
-  //console.log("Thats a great answer i prefer watching football");
-  alert('Thats a great answer i prefer watching football');
-  counter++;
-}else{
-  //console.log("Sorry your answer should be either yes or no or (y or n)");
-  alert('Sorry your answer should be either yes or no or (y or n)');
-}
-
-let number = prompt(' Please Guess a number');
-// parseInt(number);
-let check = true;
-
-for (let i = 0 ; i<3 ; i++){
-
-  switch(number){
-  case '1':
-    alert('too low');
-    break;
-  case '2':
-    alert('too low');
-    break;
-  case '3':
-    alert('close');
-    break;
-  case '4':
-    alert('very close');
-    break;
-  case '5':
-    check = false;
-    alert('right answer');
+  if (questiionNum5.toLowerCase() === 'yes' || questiionNum5.toLowerCase() === 'y') {
+    //console.log("Sorry i dont like watching news at all it is soo boring");
+    alert('Sorry i dont like watching news at all it is soo boring');
+  
+  }else if (questiionNum5.toLowerCase() === 'no' || questiionNum5.toLowerCase() === 'n') {
+    //console.log("Thats a great answer i prefer watching football");
+    alert('Thats a great answer i prefer watching football');
     counter++;
-    break;
-  case '6':
-    alert('very close');
-    break;
-  case '7':
-    alert('close');
-    break;
-  case '8':
-    alert('too high');
-    break;
-  case '9':
-    alert('too high');
-    break;
-  case '10':
-    alert('too high');
-    break;
-  default:
-    alert('Incorecet number entered');
-    break;
-  }
-
-  if(number !=='5'){
-    number = prompt(' Please Guess a number');
-    // parseInt(number);
   }else{
-    break;
+    //console.log("Sorry your answer should be either yes or no or (y or n)");
+    alert('Sorry your answer should be either yes or no or (y or n)');
   }
-
-}
-if (check) {
-  alert('Sorry you have exhausted all of your attempts the write answer was 5');
 }
 
-let bestCars = ['bmw','audi', 'vw'];
+q5();
+
+
+function q6(){
+  let number = prompt(' Please Guess a number');
+  // parseInt(number);
+  let check = true;
+  
+  for (let i = 0 ; i<3 ; i++){
+  
+    switch(number){
+    case '1':
+      alert('too low');
+      break;
+    case '2':
+      alert('too low');
+      break;
+    case '3':
+      alert('close');
+      break;
+    case '4':
+      alert('very close');
+      break;
+    case '5':
+      check = false;
+      alert('right answer');
+      counter++;
+      break;
+    case '6':
+      alert('very close');
+      break;
+    case '7':
+      alert('close');
+      break;
+    case '8':
+      alert('too high');
+      break;
+    case '9':
+      alert('too high');
+      break;
+    case '10':
+      alert('too high');
+      break;
+    default:
+      alert('Incorecet number entered');
+      break;
+    }
+  
+    if(number !=='5'){
+      number = prompt(' Please Guess a number');
+      // parseInt(number);
+    }else{
+      break;
+    }
+  
+  }
+  if (check) {
+    alert('Sorry you have exhausted all of your attempts the write answer was 5');
+  }
+  
+}
+
+q6();
+
+
+function q7(){
+  let bestCars = ['bmw','audi', 'vw'];
 let cars = prompt('Tell me what is a best car');
 let flag = false;
 cars = cars.toLowerCase();
@@ -177,5 +200,9 @@ for (let i = 0; i< 5; i++) {
 
 }
 alert('The correct answers  are  bmw, audi, vw ');
+
+}
+q7();
+
 
 alert('It was fun game '+userName+ ' i really enjoyed the game hoping to meet you soon by the way your mark is '+counter+' out of 7');
