@@ -7,7 +7,7 @@ alert('Welcome '+ userName +' To My Website it is an honor to meet you');
 
 // Question 1;
 
-function q1(){
+function question1(){
   let questiionNum1 = prompt('Do I Like Studying history ?? The Answer For This Question Must Yes or NO (y or n)');
 
   if (questiionNum1.toLowerCase() === 'yes' || questiionNum1.toLowerCase() === 'y'){
@@ -24,7 +24,7 @@ function q1(){
   }
 
 }
-q1();
+question1();
 
 // Question 2
 function q2(){
