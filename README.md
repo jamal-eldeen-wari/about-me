@@ -4,7 +4,9 @@ Building this application will help to enhance my programming skills and i am so
 
 New Added feature to my game that the guest will be asked to choose a number from 1-10 and he has only 4 attempts for this question. Also i added a car challenge in my website where the guest will have to guess my best car collection and for this question the guest will 5 attempts to answer correctly.
 
-Author: Jamal Eldeen Wari
+ Jamal Eldeen Wari is a Navigator 
+ Batool Al-Ali is a Driver
+
 ### Links and Resources:
 I got little help from stack overflow for css code:
 Link: https://stackoverflow.com/questions/12591453/bold-font-in-h1-h2-h3-titles-92590
