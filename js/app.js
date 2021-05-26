@@ -6,21 +6,25 @@ alert('Welcome '+ userName +' To My Website it is an honor to meet you');
 
 
 // Question 1;
-let questiionNum1 = prompt('Do I Like Studying history ?? The Answer For This Question Must Yes or NO (y or n)');
 
-if (questiionNum1.toLowerCase() === 'yes' || questiionNum1.toLowerCase() === 'y'){
-  //console.log("Nice You Know Me");
-  alert('Nice You Know Me i like history books');
-  counter++;
-}else if (questiionNum1.toLowerCase() === 'no' ||questiionNum1.toLowerCase() === 'n' ) {
-  //console.log("No Sorry that is not the right answer");
-  alert('No Sorry that is not the right answer i like reading history books');
+function q1(){
+  let questiionNum1 = prompt('Do I Like Studying history ?? The Answer For This Question Must Yes or NO (y or n)');
 
-}else{
-  //console.log("Sorry your answer should be either yes or no or (y or n)");
-  alert('Sorry your answer should be either yes or no or (y or n)');
+  if (questiionNum1.toLowerCase() === 'yes' || questiionNum1.toLowerCase() === 'y'){
+    //console.log("Nice You Know Me");
+    alert('Nice You Know Me i like history books');
+    counter++;
+  }else if (questiionNum1.toLowerCase() === 'no' ||questiionNum1.toLowerCase() === 'n' ) {
+    //console.log("No Sorry that is not the right answer");
+    alert('No Sorry that is not the right answer i like reading history books');
+  
+  }else{
+    //console.log("Sorry your answer should be either yes or no or (y or n)");
+    alert('Sorry your answer should be either yes or no or (y or n)');
+  }
+  
 }
-
+q1();
 
 // Question 2
 let questiionNum2 = prompt('Do I Like Watching Movies ?? The Answer For This Question Must Yes or NO (y or n)');
