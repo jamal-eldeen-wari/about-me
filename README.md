@@ -6,7 +6,7 @@ New Added feature to my game that the guest will be asked to choose a number fro
 
  Jamal Eldeen Wari is a Navigator 
  
- Anas Dalalah the  a Driver
+ Anas F. Dalalah the  a Driver
 
 ### Links and Resources:
 I got little help from stack overflow for css code:
