@@ -27,20 +27,25 @@ function q1(){
 q1();
 
 // Question 2
-let questiionNum2 = prompt('Do I Like Watching Movies ?? The Answer For This Question Must Yes or NO (y or n)');
+function q2(){
+  let questiionNum2 = prompt('Do I Like Watching Movies ?? The Answer For This Question Must Yes or NO (y or n)');
 
-if (questiionNum2.toLowerCase() === 'yes' || questiionNum2.toLowerCase() === 'y') {
-  //console.log("Nice You Know Me");
-  alert('Nice You Know Me especially action movies they are the best');
-  counter++;
-}else if (questiionNum2.toLowerCase() === 'no' || questiionNum2.toLowerCase() === 'n') {
-  //console.log("No Sorry that is not the right answer");
-  alert('No Sorry that is not the right answer actually i like movies');
-
-}else{
-  //console.log("Sorry your answer should be either yes or no or (y or n)");
-  alert('Sorry your answer should be either yes or no or (y or n)');
+  if (questiionNum2.toLowerCase() === 'yes' || questiionNum2.toLowerCase() === 'y') {
+    //console.log("Nice You Know Me");
+    alert('Nice You Know Me especially action movies they are the best');
+    counter++;
+  }else if (questiionNum2.toLowerCase() === 'no' || questiionNum2.toLowerCase() === 'n') {
+    //console.log("No Sorry that is not the right answer");
+    alert('No Sorry that is not the right answer actually i like movies');
+  
+  }else{
+    //console.log("Sorry your answer should be either yes or no or (y or n)");
+    alert('Sorry your answer should be either yes or no or (y or n)');
+  }
 }
+q2();
+
+
 
 // Question 3
 let questiionNum3 = prompt('Do I Like Playing Video Games ?? The Answer For This Question Must Yes or NO (y or n)');
